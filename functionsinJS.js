@@ -39,3 +39,5 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
 }
 
 console.log(calculateDiscountedPrice(1000,10))
+
+module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };clear
